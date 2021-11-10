@@ -1,0 +1,73 @@
+.btn{
+    margin: 15px 151px;
+    padding: 2px 2px;
+    border: 2px solid black;
+    border-radius: 6px;
+    width: 98px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(34, 29, 29);
+    color: white;
+    box-shadow: 0px 0px 9px 1px brown;
+}
+
+.btn:hover{ 
+cursor: pointer;
+color: burlywood;
+}
+
+#contact::before{
+    content: "";
+    /*background:url('pexels-pixabay-460985.jpg')  no-repeat center center/cover;*/
+    background-color:black;
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+.contactbox{
+    border: 2px solid black;
+    padding: 2px 2px;
+    margin: -75px 510px;
+    height: 275px;
+    box-shadow: -1px 1px 20px #ffc8c8;
+    text-decoration-style: solid;
+}
+
+.contactus{
+    padding: 2px 2px;
+    margin: 36px 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    text-shadow: 2px 3px 20px white;
+    box-shadow: -3px 0px 0px white;
+}
+
+h1{
+    margin: 97px 60px;
+    padding: 2px 2px;
+    text-align: center;
+    text-shadow: 0px 0px 7px whitesmoke;
+}
+.btn2{
+    width: 105px;
+    text-align: center;
+    border: 2px solid rgb(250, 245, 245);
+    border-radius: 7px;
+    height: 21px;
+}
+.inputclass{
+    border: 2px solid rgb(243, 239, 239);
+    border-radius: 20px;
+    margin: 2px 14px;
+    padding: 2px 2px;
+}
+
+.extra{
+    padding: 0px 13px;
+    margin: 13px;
+}
