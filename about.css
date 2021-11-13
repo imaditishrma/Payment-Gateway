@@ -28,6 +28,17 @@ body {
 .content{
     text-align: center;
 }
+#aboutmidbox::before{
+    content: "";
+    background-color:rgb(236, 233, 182);
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    left:0px;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.2;
+}
 
 /*Body*/
 .header{
@@ -35,16 +46,15 @@ body {
     Font-size: 100px;
     text-align: center;
 }
+
 .paragraph{
-    font-size: 25px;
     color: white;
     text-align: center;
-    
 }
 
 /*Footer*/
 footer{
     clear: both;
     position: relative;
-    margin-top: 170px;
+    margin-top: 270px;
 }
