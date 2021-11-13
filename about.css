@@ -3,7 +3,7 @@ html {
     scroll-behavior: smooth;
 }  
 body {
-    background-image: url("AboutBag.jpg");
+    background-image: url("img/aboutbg.jpg");
     background-size: cover;
     font-family: "Baloo Tamma 2", cursive;
 }
