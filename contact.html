@@ -12,6 +12,8 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
   <!-- My CSS -->
   <link rel="stylesheet" href="contact.css" >
+  <!-- My JS -->
+  <script src="contact.js"></script>
   <!-- Font Awesome -->
   <script src="https://kit.fontawesome.com/996973c893.js"></script>
   <!-- Google Fonts -->
@@ -49,24 +51,23 @@
   <section id="contact">
       
       <div class="contactbox text-white">
-          <form action="nophpaction" class="contactclass">
+          <form action="nophpaction" class="contactclass" name="myForm" onsubmit="return validateForm()" >
               <div class="contactus" id="one">
                   <label for="name">NAME: </label>
-                  <input type="text" name="name" id="name" class="inputclass">
+                  <input type="text" placeholder="Enter Your Name" name="name" id="name" class="inputclass">
               </div>
 
               <div class="contactus" id="two">
                   <label for="email">Email Id: </label>
-                  <input type="email" name="name" id="email" class="inputclass">
+                  <input type="email" placeholder="Enter your email"name="name" id="email" class="inputclass">
               </div>
 
               <div class="contactus" id="three">
-                  <label for="Phone No">Phone No:</label>
-                  <input type="phone" name="name" id="Phone No" class="inputclass">
+                  <label for="PhoneNo">Phone No:</label>
+                  <input type="phone" placeholder="Enter your phone number" name="name" id="PhoneNo" class="inputclass">
               </div>
 
               <div class="contactus" id="four">
-                  <!-- <label for="Phone No"></label> -->
                   <input type="button" value="Submit" class="btn3">
               </div>
           </form>
